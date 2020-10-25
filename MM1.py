@@ -1,5 +1,5 @@
 # M/M/1 model 
-# We did together in class 
+ 
 
 import random 
 import simpy 
@@ -10,7 +10,7 @@ interarrival_time = 5
 service_time = 5.5
 
 
-class Customer(object): 
+class Customer(): 
     def __init__(self,env,counter,identity,time): 
         self.env=env 
         self.counter = counter 
